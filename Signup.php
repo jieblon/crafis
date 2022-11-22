@@ -19,7 +19,7 @@
 			
 			mysqli_query($con, $query);
 
-			header("Location: Login.php");
+			header("Location: login.php");
 			die;
 		}else
 		{

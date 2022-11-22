@@ -1,8 +1,8 @@
 <?php 
 
 $dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
+$dbuser = "cra";
+$dbpass = "p@ssw0rd";
 $dbname = "cyberrange";
 
 if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))

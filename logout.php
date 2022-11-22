@@ -9,5 +9,5 @@ if(isset($_SESSION['user_id']))
 	unset($_SESSION['user_id']);
 }
 
-header("Location:Login.php");
+header("Location:login.php");
 die;
